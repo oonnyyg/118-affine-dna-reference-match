@@ -3,3 +3,6 @@ name = "affine-dna-reference-match"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = []
+
+[project.scripts]
+affine-match = "affine_match.cli:main"
